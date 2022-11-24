@@ -178,3 +178,6 @@ gradle-app.setting
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# Ignore Gradle build output directory
+build
