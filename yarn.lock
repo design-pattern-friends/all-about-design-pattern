@@ -47,6 +47,12 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@monorepo/chanii@*, @monorepo/chanii@workspace:src/chanii":
+  version: 0.0.0-use.local
+  resolution: "@monorepo/chanii@workspace:src/chanii"
+  languageName: unknown
+  linkType: soft
+
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -1545,6 +1551,14 @@ __metadata:
   checksum: 55a4409182260866ab31284d929b3cb961e5fdb91fe0d2e099dac92eaecec890f36e524b4c19e6ceae839c99c6d7195817579cdffc8e2c80da0cb794463a748b
   languageName: node
   linkType: hard
+
+"project-a@workspace:src/project-a":
+  version: 0.0.0-use.local
+  resolution: "project-a@workspace:src/project-a"
+  dependencies:
+    "@monorepo/chanii": "*"
+  languageName: unknown
+  linkType: soft
 
 "punycode@npm:^2.1.0":
   version: 2.1.1
