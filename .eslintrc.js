@@ -17,5 +17,16 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['@typescript-eslint', 'prettier'],
-  rules: {},
+  rules: {
+    'import/no-unresolved': 'off',
+    'import/extensions': 'off',
+    'class-methods-use-this': 'off',
+    'import/prefer-default-export': 'off',
+    'prettier/prettier': [
+      'error',
+      {
+        endOfLine: 'auto',
+      },
+    ],
+  },
 };
