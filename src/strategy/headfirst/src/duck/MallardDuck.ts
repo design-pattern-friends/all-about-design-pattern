@@ -1,6 +1,6 @@
-import { Duck } from "./Duck";
-import { FlyWithWings } from "./FlyBehavior/FlyWithWings";
-import { Quack } from "./QuackBehavior/Quack";
+import { Duck } from './Duck';
+import { FlyWithWings } from './FlyBehavior/FlyWithWings';
+import { Quack } from './QuackBehavior/Quack';
 
 export class MallardDuck extends Duck {
   constructor() {
@@ -12,5 +12,4 @@ export class MallardDuck extends Duck {
   public display(): void {
     console.log('저는 물 오리입니다.');
   }
-
 }

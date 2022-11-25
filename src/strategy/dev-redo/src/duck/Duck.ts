@@ -2,8 +2,9 @@ import { IQuackBehavior } from './QuackBehavior/IQuackBehavior';
 import { IFlyBehavior } from './FlyBehavior/IFlyBehavior';
 
 export abstract class Duck {
-  quackBehavior: IQuackBehavior;
-  flyBehavior: IFlyBehavior;
+  quackBehavior!: IQuackBehavior;
+
+  flyBehavior!: IFlyBehavior;
 
   public performFly(): void {
     this.flyBehavior.fly();
