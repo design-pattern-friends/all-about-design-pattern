@@ -17,7 +17,7 @@
     "forceConsistentCasingInFileNames": true,
   },
   "exclude": [
-    "designpatterns/**/dist/**"
+    "src/**/dist/**"
   ],
   "include": []
 }
