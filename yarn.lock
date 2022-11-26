@@ -594,14 +594,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chanii@workspace:src/strategy/chanii":
-  version: 0.0.0-use.local
-  resolution: "chanii@workspace:src/strategy/chanii"
-  dependencies:
-    ts-node: ^10.9.1
-  languageName: unknown
-  linkType: soft
-
 "chokidar@npm:^3.5.2":
   version: 3.5.3
   resolution: "chokidar@npm:3.5.3"
@@ -1749,6 +1741,14 @@ __metadata:
   checksum: 26bf6c5480dda5161c820c5b5c751ae1e766c587b1f951ea3fcfc973bafb7831ae5b54a31a69bd670220e42e99ec154475025a468eae58ea262f813fdc8d1c62
   languageName: node
   linkType: hard
+
+"jlee0505@workspace:src/strategy/jlee0505":
+  version: 0.0.0-use.local
+  resolution: "jlee0505@workspace:src/strategy/jlee0505"
+  dependencies:
+    ts-node: ^10.9.1
+  languageName: unknown
+  linkType: soft
 
 "js-sdsl@npm:^4.1.4":
   version: 4.1.5
