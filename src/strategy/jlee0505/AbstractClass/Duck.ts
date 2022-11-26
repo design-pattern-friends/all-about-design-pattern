@@ -12,4 +12,8 @@ export default abstract class Duck {
   fly() {
     console.log('Some kind can fly and others cannot.');
   }
+
+  introduce() {
+    console.log('Some are real ducks, others are fake.');
+  }
 }
