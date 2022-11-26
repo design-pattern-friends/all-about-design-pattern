@@ -9,12 +9,18 @@ const rubber: Duck = new RubberDuck();
 const rocket: Duck = new RocketDuck();
 const redhead: Duck = new RedheadDuck();
 
-mallard.walk();
-mallard.swim();
+mallard.introduce();
 mallard.fly();
+console.log(' ');
 
+rubber.introduce();
 rubber.fly();
+console.log(' ');
 
+rocket.introduce();
 rocket.fly();
+console.log(' ');
 
+redhead.introduce();
 redhead.fly();
+console.log(' ');
