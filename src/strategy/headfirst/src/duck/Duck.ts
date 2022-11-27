@@ -3,6 +3,7 @@ import { IFlyBehavior } from './FlyBehavior/IFlyBehavior';
 
 export abstract class Duck {
   quackBehavior!: IQuackBehavior;
+
   flyBehavior!: IFlyBehavior;
 
   public performQuack(): void {

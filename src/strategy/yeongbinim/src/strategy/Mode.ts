@@ -1,16 +1,10 @@
 /* eslint-disable import/no-unresolved, import/extensions */
-import Mode from './Mode';
 import Position from '../Position';
 import Bridge from '../Bridge';
 import { generateRandomNumber, makeStringSet } from '../utils';
 
-export default class ModeHard implements Mode {
-  private dictionary: { [key: string]: number } = {
-    U: 3,
-    N: 2,
-    M: 1,
-    D: 0,
-  };
+export default abstract class Mode {
+  public abstract dictionary: { [key: string]: number };
 
   public createPosition(sign: string): Position {
     if (!(sign in this.dictionary))

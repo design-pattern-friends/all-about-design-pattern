@@ -1,6 +1,6 @@
-import { Duck } from "./Duck";
-import { FlyNoWay } from "./FlyBehavior/FlyNoWay";
-import { MiniQuack } from "./QuackBehavior/MiniQuack";
+import { Duck } from './Duck';
+import { FlyNoWay } from './FlyBehavior/FlyNoWay';
+import { MiniQuack } from './QuackBehavior/MiniQuack';
 
 export class MiniDuck extends Duck {
   constructor() {
@@ -12,6 +12,4 @@ export class MiniDuck extends Duck {
   public display(): void {
     console.log("I'm a mini duck");
   }
-
 }
-

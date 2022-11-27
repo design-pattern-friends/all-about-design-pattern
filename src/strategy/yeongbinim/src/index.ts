@@ -1,4 +1,4 @@
-/* eslint-disable import/no-unresolved, import/extensions */
+// eslint-disable-next-line import/no-unresolved
 import BridgeGame from './BridgeGame';
 import Mode from './strategy/Mode';
 import ModeEasy from './strategy/ModeEasy';
