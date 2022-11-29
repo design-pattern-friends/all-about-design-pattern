@@ -3,6 +3,7 @@ import MallardDuck from './ConcreteClass/MallardDuck';
 import RubberDuck from './ConcreteClass/RubberDuck';
 import RocketDuck from './ConcreteClass/RocketDuck';
 import RedheadDuck from './ConcreteClass/RedheadDuck';
+import FlyOnEngine from './Interface/Fly/FlyOnEngine';
 
 const mallard: Duck = new MallardDuck();
 const rubber: Duck = new RubberDuck();
@@ -13,6 +14,8 @@ mallard.introduce();
 mallard.fly();
 
 rubber.introduce();
+rubber.fly();
+rubber.setFlyBehavior(new FlyOnEngine());
 rubber.fly();
 
 rocket.introduce();

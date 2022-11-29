@@ -25,4 +25,8 @@ export default abstract class Duck {
     this.introBehavior.introduce(this.kind);
     console.log(' ');
   }
+
+  setFlyBehavior(flyBehavior: IFlyBehavior) {
+    this.flyBehavior = flyBehavior;
+  }
 }
