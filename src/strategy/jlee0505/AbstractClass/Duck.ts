@@ -1,5 +1,12 @@
+import IFlyBehavior from '../Interface/Fly/IFlyBehavior';
+import IIntroduce from '../Interface/Introduce/IIntroduce';
+
 export default abstract class Duck {
   kind!: string;
+
+  flyBehavior!: IFlyBehavior;
+
+  introBehavior!: IIntroduce;
 
   walk() {
     console.log('i can walk.');
@@ -10,10 +17,12 @@ export default abstract class Duck {
   }
 
   fly() {
-    console.log('Some kind can fly and others cannot.');
+    this.flyBehavior.fly();
+    console.log(' ');
   }
 
   introduce() {
-    console.log('Some are real ducks, others are fake.');
+    this.introBehavior.introduce(this.kind);
+    console.log(' ');
   }
 }

@@ -11,16 +11,12 @@ const redhead: Duck = new RedheadDuck();
 
 mallard.introduce();
 mallard.fly();
-console.log(' ');
 
 rubber.introduce();
 rubber.fly();
-console.log(' ');
 
 rocket.introduce();
 rocket.fly();
-console.log(' ');
 
 redhead.introduce();
 redhead.fly();
-console.log(' ');
