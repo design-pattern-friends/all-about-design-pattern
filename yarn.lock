@@ -752,6 +752,14 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dev-redo-f191dc@workspace:src/strategy/dev-redo":
+  version: 0.0.0-use.local
+  resolution: "dev-redo-f191dc@workspace:src/strategy/dev-redo"
+  dependencies:
+    ts-node: ^10.9.1
+  languageName: unknown
+  linkType: soft
+
 "diff@npm:^4.0.1":
   version: 4.0.2
   resolution: "diff@npm:4.0.2"
