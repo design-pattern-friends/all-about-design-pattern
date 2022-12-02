@@ -16,6 +16,29 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['@typescript-eslint', 'prettier'],
-  rules: {},
+  plugins: ['@typescript-eslint', 'prettier', 'import'],
+  rules: {
+    'import/extensions': 'off',
+    'class-methods-use-this': 'off',
+    'import/prefer-default-export': 'off',
+    'prettier/prettier': [
+      'error',
+      {
+        endOfLine: 'auto',
+      },
+    ],
+  },
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
+      typescript: {
+        project: './tsconfig.json',
+      },
+    },
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts', '.tsx'],
+    },
+  },
 };
