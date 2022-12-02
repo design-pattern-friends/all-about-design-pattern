@@ -1,5 +1,5 @@
-import { Duck } from "./duck/Duck";
-import { MallardDuck } from "./duck/MallardDuck";
+import { Duck } from './duck/Duck';
+import { MallardDuck } from './duck/MallardDuck';
 import { FlyNoWay } from './duck/FlyBehavior/FlyNoWay';
 
 const mallard: Duck = new MallardDuck();
