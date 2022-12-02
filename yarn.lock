@@ -1742,6 +1742,14 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jlee0505@workspace:src/strategy/jlee0505":
+  version: 0.0.0-use.local
+  resolution: "jlee0505@workspace:src/strategy/jlee0505"
+  dependencies:
+    ts-node: ^10.9.1
+  languageName: unknown
+  linkType: soft
+
 "js-sdsl@npm:^4.1.4":
   version: 4.1.5
   resolution: "js-sdsl@npm:4.1.5"
