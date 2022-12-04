@@ -1,0 +1,7 @@
+{
+  "packageManager": "yarn@3.3.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}
