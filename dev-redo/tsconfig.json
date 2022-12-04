@@ -9,7 +9,8 @@
     "lib": [
       "ES5",
       "ES6",
-      "ESNext"
+      "ESNext",
+      "dom"
     ],
     "skipLibCheck": true,
     "module": "commonjs",
