@@ -1,0 +1,11 @@
+{
+  "name": "observer",
+  "packageManager": "yarn@3.3.0",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "dependencies": {
+    "@types/node": "^18.11.9",
+    "ts-node": "^10.9.1"
+  }
+}
