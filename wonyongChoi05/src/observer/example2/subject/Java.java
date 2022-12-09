@@ -1,6 +1,6 @@
-package example2.subject;
+package observer.example2.subject;
 
-import example2.observer.Subject;
+import observer.example2.observer.Subject;
 
 public class Java extends Subject {
 

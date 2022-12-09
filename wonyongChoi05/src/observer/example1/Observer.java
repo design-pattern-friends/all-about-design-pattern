@@ -1,4 +1,4 @@
-package example1;
+package observer.example1;
 
 public class Observer {
     public String msg;

@@ -1,6 +1,6 @@
-package example2.notice;
+package observer.example2.notice;
 
-import example2.observer.Subject;
+import observer.example2.observer.Subject;
 
 import java.util.ArrayList;
 import java.util.List;

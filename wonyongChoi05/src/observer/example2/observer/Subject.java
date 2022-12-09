@@ -1,4 +1,4 @@
-package example2.observer;
+package observer.example2.observer;
 
 public class Subject {
 

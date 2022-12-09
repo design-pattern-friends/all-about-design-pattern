@@ -1,9 +1,9 @@
-package example2;
+package observer.example2;
 
-import example2.notice.KakaoTalk;
-import example2.subject.History;
-import example2.subject.Java;
-import example2.subject.CPP;
+import observer.example2.notice.KakaoTalk;
+import observer.example2.subject.History;
+import observer.example2.subject.Java;
+import observer.example2.subject.CPP;
 
 public class Main {
     public static void main(String[] args) {
