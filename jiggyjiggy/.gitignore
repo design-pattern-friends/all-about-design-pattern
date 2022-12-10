@@ -1,3 +1,5 @@
+output
+
 # Created by https://www.toptal.com/developers/gitignore/api/python,intellij+all,gradle,java,pycharm+all
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,intellij+all,gradle,java,pycharm+all
 
@@ -364,3 +366,5 @@ gradle-app.setting
 *.hprof
 
 # End of https://www.toptal.com/developers/gitignore/api/python,intellij+all,gradle,java,pycharm+all
+# Ignore Gradle build output directory
+build
