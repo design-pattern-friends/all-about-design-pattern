@@ -1,7 +1,7 @@
-package decorator.src.java.todo;
+package decorator.src.java.roadExample.todo;
 
-import decorator.src.java.main.Display;
-import decorator.src.java.main.DisplayDecorator;
+import decorator.src.java.roadExample.main.Display;
+import decorator.src.java.roadExample.main.DisplayDecorator;
 
 public class CrossingDecorator extends DisplayDecorator {
 

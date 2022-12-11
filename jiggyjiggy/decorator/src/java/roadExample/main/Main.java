@@ -1,6 +1,6 @@
-package decorator.src.java.main;
+package decorator.src.java.roadExample.main;
 
-import decorator.src.java.todo.CrossingDecorator;
+import decorator.src.java.roadExample.todo.CrossingDecorator;
 
 public class Main {
     public static void main(String[] args) {

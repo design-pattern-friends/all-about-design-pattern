@@ -1,4 +1,4 @@
-package decorator.src.java.main;
+package decorator.src.java.roadExample.main;
 
 public class TrafficDecorator extends DisplayDecorator {
 
