@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.PizzaDecoratorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-12-12T05:35:58" hostname="choewon-yong-ui-MacBookPro.local" time="0.035">
+  <properties/>
+  <testcase name="test()" classname="org.example.PizzaDecoratorTest" time="0.035"/>
+  <system-out><![CDATA[불고기 쉬림프 페퍼로니 파인애플 포테이토 고구마 피자 만들기
+피자 도우 + 토마토 소스 + 치즈 (+ 고구마)(+ 감자)(+ 파인애플)(+ 페퍼로니)(+ 새우)(+ 불고기)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
