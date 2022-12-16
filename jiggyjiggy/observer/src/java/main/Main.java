@@ -1,4 +1,4 @@
-package observser.src.java.main;
+package observer.src.java.main;
 
 public class Main {
     public static void main(String[] args) {
