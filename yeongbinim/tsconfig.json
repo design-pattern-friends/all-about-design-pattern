@@ -9,11 +9,12 @@
     "lib": [
       "ES5",
       "ES6",
-      "ESNext"
+      "ESNext",
+      "DOM"
     ],
     "skipLibCheck": true,
-    "module": "ESNext",
-    "isolatedModules": true,
+    "module": "CommonJS",
+    "isolatedModules": false,
     "forceConsistentCasingInFileNames": true,
   },
   "exclude": [],
