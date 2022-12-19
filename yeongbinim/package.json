@@ -3,8 +3,8 @@
   "packageManager": "yarn@3.3.0",
   "private": true,
   "scripts": {
-    "start:observer": "ts-node ./packages/observer/index.ts",
-    "start:factorymethod": "ts-node ./packages/factorymethod/index.ts",
+    "start:observer": "ts-node ./packages/practice/observer/index.ts",
+    "start:factorymethod": "ts-node ./packages/practice/factorymethod/index.ts",
     "line": "eslint ./packages/**/*"
   },
   "devDependencies": {

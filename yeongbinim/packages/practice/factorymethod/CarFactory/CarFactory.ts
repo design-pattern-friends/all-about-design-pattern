@@ -9,10 +9,12 @@ abstract class CarFactory {
   private washCar(): void {
     console.log('washCar');
   }
-  public sellCar(name: string): void {
+  public sellCar(name: string): Car | null {
     this.numbering();
-    this.createCar(name);
+    const car: Car | null = this.createCar(name);
+
     this.washCar();
+    return car;
   }
 }
 

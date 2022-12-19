@@ -9,6 +9,4 @@ const newHyundaiCar: Car | null = factory.createCar('sonata');
 console.log(newHyundaiCar !== null ? newHyundaiCar.toString() : newHyundaiCar);
 
 factory = new KiaCarFactory();
-const newKiaCar: Car | null = factory.createCar('k3');
-
-console.log(newKiaCar !== null ? newKiaCar.toString() : newKiaCar);
+factory.sellCar('k3');
