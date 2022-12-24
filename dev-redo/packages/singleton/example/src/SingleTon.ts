@@ -1,17 +1,17 @@
-let instance: SingleTon | null = null;
 
 class SingleTon {
+  static instance: SingleTon;
   #name;
   #age;
 
   constructor() {
-    if (instance) return instance;
+    if (SingleTon.instance) return SingleTon.instance;
     
     this.#name = "Singleton";
     this.#age = 25;
-    instance = this;
+    SingleTon.instance = this;
   }
 }
 
 
-export { instance, SingleTon }
+export { SingleTon }
