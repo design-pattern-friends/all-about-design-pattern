@@ -1,6 +1,6 @@
-package org.example.invoker;
+package org.example1.invoker;
 
-import org.example.command.Command;
+import org.example1.command.Command;
 
 /**
  * @author 최원용

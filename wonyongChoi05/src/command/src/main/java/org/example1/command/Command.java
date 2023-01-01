@@ -1,4 +1,4 @@
-package org.example.command;
+package org.example1.command;
 
 /**
  * @author 최원용
