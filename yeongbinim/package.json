@@ -5,6 +5,7 @@
   "scripts": {
     "start:observer": "ts-node ./packages/practice/observer/index.ts",
     "start:factorymethod": "ts-node ./packages/practice/factorymethod/index.ts",
+    "start:headfirst06": "ts-node ./packages/headfirst/06_command/index.ts",
     "line": "eslint ./packages/**/*"
   },
   "devDependencies": {
